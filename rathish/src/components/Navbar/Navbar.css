@@ -1,0 +1,221 @@
+/* ============================= */
+/* NAVBAR */
+/* ============================= */
+
+.navv {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 30px;
+  box-sizing: border-box;
+
+  z-index: 9999;
+
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease;
+}
+
+
+/* ============================= */
+/* WHITE NAVBAR */
+/* ============================= */
+
+.nav-white {
+  background-color: white !important;
+  color: black !important;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ============================= */
+/* BLACK NAVBAR */
+/* ============================= */
+
+.nav-black {
+  background-color: black !important;
+  color: white !important;
+
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+
+/* ============================= */
+/* MERN DEVELOPER */
+/* ============================= */
+
+.navbarr {
+  display: flex;
+  align-items: center;
+}
+
+.navbarr h2 {
+  margin: 0;
+
+  font-size: 22px;
+
+  transition: color 0.4s ease;
+}
+
+
+/* White navbar text */
+
+.nav-white .navbarr h2 {
+  color: black !important;
+}
+
+
+/* Black navbar text */
+
+.nav-black .navbarr h2 {
+  color: white !important;
+}
+
+
+/* ============================= */
+/* HOME ABOUT CONTACT */
+/* ============================= */
+
+.navbarr2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+/* Remove Link default style */
+
+.navbarr2 a {
+  text-decoration: none;
+}
+
+
+/* Buttons */
+
+.navbarr2 button {
+  border: none;
+  background: transparent;
+
+  padding: 10px 15px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition:
+    color 0.4s ease,
+    background-color 0.3s ease;
+}
+
+
+/* White navbar buttons */
+
+.nav-white .navbarr2 button {
+  color: black !important;
+}
+
+
+/* Black navbar buttons */
+
+.nav-black .navbarr2 button {
+  color: white !important;
+}
+
+
+/* Hover */
+
+.navbarr2 button:hover {
+  opacity: 0.7;
+}
+
+
+/* ============================= */
+/* LINKEDIN */
+/* ============================= */
+
+.linkedin-container {
+  display: flex;
+  align-items: center;
+}
+
+
+/* LinkedIn button */
+
+.buttonn {
+  border: none;
+
+  padding: 10px 20px;
+
+  border-radius: 6px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease;
+}
+
+
+/* White navbar LinkedIn */
+
+.nav-white .buttonn {
+  background-color: transparent !important;
+  color: black !important;
+}
+
+
+/* Black navbar LinkedIn */
+
+.nav-black .buttonn {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+
+/* Hover */
+
+.buttonn:hover {
+  opacity: 0.7;
+}
+
+
+/* ============================= */
+/* MOBILE */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+  .navv {
+    height: 60px;
+    padding: 0 15px;
+  }
+
+  .navbarr h2 {
+    font-size: 16px;
+  }
+
+  .navbarr2 {
+    gap: 0;
+  }
+
+  .navbarr2 button {
+    padding: 7px 8px;
+    font-size: 13px;
+  }
+
+  .buttonn {
+    padding: 7px 10px;
+    font-size: 13px;
+  }
+}

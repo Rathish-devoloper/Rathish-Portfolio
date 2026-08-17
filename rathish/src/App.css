@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     padding-top: 70px;
+}
+
+.buttonn{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    background-color: black;
+    border-radius: 15px;
+    
+}
+
+
+.navv{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family:'Courier New', Courier, monospace;
+    background-color:white;
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    padding:0 80px ;
+    z-index:1000;
+    top: 0;
+    left: 0;
+    
+}
+.navbarr2{
+    justify-content: space-between;
+    display: flex;
+    gap: 30px;
+}
+.navbarr2 button{
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    cursor: pointer;
+
+}    
+    
+
+
+.black{
+    background-color:black;
+    height: 300px;
+  
+
+}
+.image{
+    height: 220px;
+    width: 170px;
+    border: 3px solid white;
+    border-radius:40px;
+}
+.imge{
+    width: 85%;
+    margin: auto;
+    position: relative;
+}
+.imge img{
+    position: absolute;
+    top:180px;
+    left: 70px;
+
+    
+}
+ .buttonn{
+    color: black;
+    border: none;
+    font-family:sans-serif;
+    background: transparent;
+    font-size:large;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.follow{
+    width: 120px;
+    background: black;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    border: none;
+    
+}
+.profile{
+    width: 70%;  
+}
+.profile h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.para{
+    font-size: 25px;
+    color: #777;
+    line-height: 1.8;
+    max-width: 1000px;
+    margin-bottom: 35px;
+    margin-left: 190px;
+    ;
+}
+.spann{
+   margin-bottom: 30px;
+   display: flex;
+   gap: 30px;
+   margin: 20px 0;
+   font-size: 20px;
+   margin-right: 680px;
+   
+}
+.profile-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top:40px;
+    margin-bottom: 30px;
+    
+}
+.name{
+    margin-left: 80px;
+}
+.fixedbtn{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 25px;
+    margin-left: 1300px;
+    position:fixed;
+    bottom: 30px;
+}
+.fixbtn button:hover{
+    transform: translateY(-5px);
+     box-shadow:0 0 20px black;
+}
+
+.h1{
+    margin-left:50px;
+}
+.post-container{
+    
+    height: 550px;
+    display: flex;
+}
+.box1{
+    height:405px ;
+    /* width: 400px;  */
+    border-radius: 35px;
+    
+   
+}
+.image2{
+    height: 180px;
+    width: 300px;
+    border-radius: 35px;
+    margin: 55px 0 30px 50px;
+}
+.para2{
+    font-size: 25px;
+    color: #777;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.imgbtn1{
+    border: none;
+    background-color: white;
+    font-size: large;
+    cursor:pointer;
+    margin: 40px 0 0 30px;
+
+}
+.image3{
+    height: 180px;
+    width: 300px;
+    border-radius: 35px;
+    margin: 30px 0 30px 50px;
+   
+}
+.box2{
+    margin-top: 30px;
+    width: 400px;
+
+   
+}
+.image4{
+    height: 180px;
+    width: 300px;
+    border-radius: 35px;
+    margin: 30px 0 30px 50px;
+}
+.box3{
+    margin-top: 32px;
+    width: 400px;
+    
+    
+}
+.morebutton{
+    border: none;
+    font-size:40px;
+    margin-top: 150px;
+    margin-left: 20px;
+    background-color: white;
+}
+.header{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.lastp{
+    font-size: 25px;
+    color: #777;
+}
+.last-container{
+    width: 90%;
+    margin: 60px auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 40px;
+    background:#fff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+.form-box{
+    flex:1;
+}
+.row{
+    display: flex;
+    gap: 30px;
+
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.input-box label{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.input-box input,.input-box textarea{
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    background: transparent;
+}
+.input-box textarea{
+    height: 120px;
+    resize: none;
+}
+
+.contactusbox{
+    width: 420px;
+    background:#000000e6;
+    color: white;
+    padding: 45px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactusbox h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.contactusbox p{
+    color: #cfcfcf;
+    line-height: 28px;
+    margin-bottom: 40px;
+
+}
+.contactusbox span{
+    font-size: 18px;
+    margin-bottom: 25px;
+
+}
+.madebyme{
+    text-align: center;
+}
+.madebyme p{
+    font-size: 20px;
+    color: #777;
+}
+.send-btn{
+    margin-top: 20px;
+    padding: 14px 35px;
+    background: #111;
+    color: #fff;
+    border-radius: 15px ;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+.btnn button:hover{
+    background: #777;
+    
+}
+.follow-btn button:hover{
+    background: #777;
+
+}
+.morebtn button{
+    color:black;
+    margin-top: 30px;
+    
+}
+
+/* Container for all cards */
+#more-posts {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+/* Each card */
+.card {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 25px;
+
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Images */
+.card img {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+/* Title */
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #222;
+}
+
+/* Description */
+.card p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Mobile responsive */
+@media (max-width: 700px) {
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .card h2 {
+    font-size: 21px;
+  }
+
+  .card p {
+    font-size: 15px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+  #more-posts {
+    width: 92%;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card img {
+    height: 170px;
+  }
+}
