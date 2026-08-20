@@ -34,9 +34,7 @@ import image2 from "../../assets/portfolio.jpg";
 import image3 from "../../assets/portfolio2.jpg";
 import image4 from "../../assets/portfolio3.jpg";
 import Grid from "@mui/material/Grid";
-import { Description } from "@mui/icons-material";
 import { useSelector,useDispatch } from "react-redux";
-import {increament,decreament}from '../../Redux/action'
 import { useEffect } from "react";
 
 
@@ -65,10 +63,7 @@ console.log(count)
     }
   ];
 
-  const dispatch = useDispatch()
-
-
-  
+  //const dispatch = useDispatch()
   return (
     <>
     <Grid size={{xs:12,md:4}}>
