@@ -34,7 +34,7 @@ import image2 from "../../assets/portfolio.jpg";
 import image3 from "../../assets/portfolio2.jpg";
 import image4 from "../../assets/portfolio3.jpg";
 import Grid from "@mui/material/Grid";
-import { useSelector,useDispatch } from "react-redux";
+import { useSelector} from "react-redux";
 import { useEffect } from "react";
 
 
