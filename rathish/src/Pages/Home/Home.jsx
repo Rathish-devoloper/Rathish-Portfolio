@@ -232,6 +232,7 @@ console.log(count)
       <div className="madebyme">
         <p>@This website is made by Rathish</p>
       </div>
+      <br/><br/>
       {cards.map((value,index)=>(
        <div id="more-posts" key={index} className="card">
        <img src ={value.image} alt={value.title} width="200"/>
