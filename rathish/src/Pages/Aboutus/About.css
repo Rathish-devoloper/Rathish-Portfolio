@@ -1,7 +1,7 @@
 .about{
     min-height:100vh;
     background:#f5f7fa;
-    padding:50px;
+    padding:40px 20px;
 }
 
 .hero{
@@ -25,10 +25,11 @@
 .goal{
     background:white;
     margin:25px auto;
-    padding:30px;
-    border-radius:35px;
-    width:80%;
+    padding:25px;
+    border-radius:20px;
+    width:100%;
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    box-sizing: border-box;
 }
 
 .about-card h2,
@@ -47,7 +48,8 @@
 
 .skill-box{
     display:flex;
-    gap:15px;
+    gap:10px;
+    flex-wrap: wrap;
 }
 
 .skill-box span{
@@ -63,19 +65,23 @@
 }
 
 .buttons{
-    text-align:center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
     margin-top:40px;
 }
 
 .buttons button{
-    margin:10px;
-    padding:14px 30px;
+    margin:0px;
+    padding:14px 28px;
     border:none;
     border-radius:10px;
     background:#3b82f6;
     color:white;
-    font-size:17px;
+    font-size:16px;
     cursor:pointer;
+    transition: background 0.2s ease;
 }
 
 .buttons button:hover{
@@ -85,4 +91,39 @@
     display: flex;
     flex-direction:row;
 
+}
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .about-card p,
+    .goal p,
+    .journey ul {
+        font-size: 16px;
+    }
+
+    .journey ul {
+        padding-left: 20px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .about {
+        padding: 20px 12px;
+    }
+
+    .buttons button {
+        width: 100%; 
+    }
+
+    .skill-box span {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
 }

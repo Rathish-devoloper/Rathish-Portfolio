@@ -1,38 +1,3 @@
-// import React from "react";
-// import {Link} from "react-router-dom";
-
-// function About(){
-//     return(
-//     <>
-//     <h1>this is about page</h1>
-//     <Link to ="/Home">
-// <button>go to home</button>
-//     </Link>
-//     </>
-//     );
-// }
-// export default About;
-
-
-/*import { Link } from "react-router-dom";
-
-function About() {
-  return (
-    <>
-      <h1>This is About Page</h1>
-
-      <Link to="/Home">
-        <button>Go To Home</button>
-      </Link>
-    </>
-  );
-}
-
-export default About;*/
-
-
-
-
 
 import "./About.css";
 
